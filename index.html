@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="grid-layout.css">
+    <link rel="stylesheet" type="text/css" href="parallax.css">
+    <link rel="stylesheet" type="text/css" href="navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/595adee3f0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+</head>
+<body class="parallax">
+    <div class="main">
+        <div class="sidenav">
+            <img src="profile-image.png" width="70%"/>
+            <br>
+            <br>
+            <div>
+                <div id="name">Kavya Sharmila Siram</div>
+                <div id="designation">CSE Student</div>
+            </div>
+            <br>
+            <a href="#about">About Me</a>
+            <a href="#academics">Academics</a>
+            <a href="#skill set">Skill Set</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact Me</a>
+
+            <div class="icons-grid">
+                <a href="mailto: sharmilasiram@gmail.com" class="fa fa-google" target="_blank"></a>
+                <a href="https://linkedin.com/in/sharmila-siram" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/sharmila02" class="fa fa-github" target="_blank"></a>
+            </div>
+        </div>
+        <div class="body">
+            <div id="about">
+                <br>
+                <br>
+                <h2 class="heading">About Me</h2>
+                <div class="line-dec"></div>
+                <span class="content">I am a self driven person
+                    whose thinking is both
+                    logical and creative. I
+                    want to solve real life
+                    problems that make
+                    human's life easier at
+                    least by a bit.
+                    </span>
+
+            </div>
+
+            <hr>
+
+            <div id="academics" class="academics-wrapper">
+                <h2 class="heading">Academics</h2>
+                <div class="line-dec"></div>
+                    <div id="ac1" class="lightBox">
+                        <i class="fas fa-graduation-cap fa-4x"></i>
+                        <h4 class="acname">Bachelor of Technology in Computer Science and Engineering</h4>
+                        <p class="actime">2019 - Pursuing</p>
+                        <p class="acplace">VR Siddhartha Engineering College, Andhra Pradesh, India</p>
+                        <p class="acCGPA">9 CGPA</p>
+                    </div>
+                    <div id="ac2" class="lightBox">
+                        <i class="fas fa-university fa-4x"></i>
+                        <h4 class="acname">Andhra Pradesh Board of Intermediate Education Examination</h4>
+                        <p class="actime">2017 - 2019</p>
+                        <p class="acplace">Sarada Educational Institutions, Andhra Pradesh, India</p>
+                        <p class="acCGPA">10 CGPA</p>
+                    </div>
+                    <div id="ac3" class="lightBox">
+                        <i class="fas fa-school fa-4x"></i>
+                        <h4 class="acname">All India Secondary School Examination</h4>
+                        <p class="actime">2016-2017</p>
+                        <p class="acplace">Nalanda Vidya Niketan,Vijayawada, Andhra Pradesh, India</p>
+                        <p class="acCGPA">10 CGPA</p>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div id="skill set">
+                <h2 class="heading">What I’m good at?</h2>
+                <div class="line-dec"></div><br>
+                <span id="skill1" class="cut-off-text">Python</span>
+                <span id="skill2" class="box-text">Hashcat</span>
+                <span id="skill3" class="cut-off-text">Graphviz</span>
+                <span id="skill4" class="box-text">HTML</span>
+                <span id="skill5" class="cut-off-text">CSS</span>
+                <span id="skill6" class="box-text">Flutter</span>
+            </div>
+
+            <hr>
+
+            <div id="projects" class="projects-wrapper">
+                <h2 class="heading">Projects</h2>
+                <div class="line-dec"></div>
+                <div id="pro1" class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="proname flip-box-front">QuizBuzz</div>
+                        <div class="flip-box-back">
+                            <div class="protech-stack">Tech stack: Flutter and Firebase</div>
+                            <div class="prodescription">It’s a quiz application with timer. This application has quizzes related to programming. It’s a group
+                                project.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pro2" class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="proname flip-box-front">Paint</div>
+                        <div class="flip-box-back">
+                            <div class="protech-stack">Tech stack:  Tkinter and Python</div>
+                            <div class="prodescription">We can draw on a canvas, choose from three different brush typed, change the color of the brush and
+                                canvas, and change the size of the brush and also be able to save the images.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pro3" class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="proname flip-box-front">Virtual Assistant</div>
+                        <div class="flip-box-back">
+                            <div class="protech-stack">Tech stack:  Python</div>
+                            <div class="prodescription">It can look up Wikipedia and Wolfram to get results for the questions asked. It says the result using text
+                                to speech API.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div id="achievements" class="achievements-wrapper">
+                <h2 class="heading">Achievements</h2>
+                <div class="line-dec"></div>
+                    <div id="ach1" class="lightBox">
+                        <h4 class="achname">Women Techmakers Engineering Fellows Scholar</h4>
+                        <p class="achdescription">Google Women Techmakers Engineering Fellows is a two-year scholarship program conducted by TalentSprint with mentorship and support from Google.
+                            One among top 126 women engineers from 15000 applicants all over India.</p>
+                        </div>
+                    <div id="ach2" class="lightBox">
+                        <h4 class="achname">Goldman Sachs - Virtual Experience Program Participant</h4>
+                        <p class="achdescription">I am in the in the Top 2 percent of all Forage students. I managed to learn a completely new skill and was
+                            able to successfully complete the tasks given.</p>
+                        </div>
+                    <div id="ach3" class="lightBox">
+                        <h4 class="achname">Certificate of Merit from CBSE</h4>
+                        <p class="achdescription">Awarded with Certificate of Merit by CBSE for securing 10 CGPA in All India Secondary School Examination.</p>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div id="contact">
+                <h2 class="heading">Contact Me</h2>
+                <div class="line-dec"></div>
+                <div class="container">
+                    <form action="/action_page.php">
+                      <input type="text" id="fname" name="firstname" placeholder="Your name">
+                      <input type="text" id="mail" name="mail" placeholder="Your E-Mail">
+                      <input type='text' id="subject" name="subject" placeholder="Subject">
+                      <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                </div>                  
+            </div>
+
+            
+        </div>
+
+    </div>
+</body>
+</html>

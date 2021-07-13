@@ -1,0 +1,180 @@
+.main{
+  padding: 1000px;
+}
+
+img {
+  transform: rotate(-30deg);
+}
+
+
+#name{
+    font-size: x-large;
+    color:white;
+}
+
+#designation{
+  font-size: medium;
+  color: white;
+  font-style: italic;
+}
+
+.heading{
+  font-size: 32px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.content,.actime,.acplace,.acCGPA,.protech-stack,.prodescription,.achdescription{
+  font-size: 16px;
+  padding: 5px;
+}
+
+.actime{
+  font-style: italic;
+}
+
+.protech-stack{
+  font-weight: bold;
+}
+
+.achdescription, .prodescription, .protech-stack{
+  text-align: justify;
+}
+
+.body{
+    text-align: center;
+    color: white;
+}
+
+.line-dec {
+    width: 60px;
+    height: 3px;
+    background-color: #40e0d0;
+    margin: 10px auto;
+}
+
+
+/* light box for academics and achievements*/
+.lightBox{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    color: white;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.lightBox:hover{
+    background-color: white;
+    opacity: 1;
+    color: black;
+}
+
+/* flip box: for projects*/
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #40e0d0;
+  }
+  
+  .flip-box-back {
+    background-color: #40e0d0;
+    text-align: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* for styling hr*/
+  hr{
+      margin: 50px;
+      height: 3px;
+      background-color: grey;
+      border: none;
+  }
+
+  /*for contact form */
+  input[type=text], select, textarea {
+    background-color:rgb(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: #40e0d0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #40e0d0;
+    color: white;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  /*for skills: cut off text*/
+  .cut-off-text {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+
+  .box-text{
+    padding: 7px;
+      border: white solid;
+  }
+
+  /* for icons */
+
+  .fas{
+    margin: 40px;
+  }
